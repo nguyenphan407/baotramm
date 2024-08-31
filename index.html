@@ -7,8 +7,13 @@
     <title><3</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js"></script>
+    <script>
+      function showAlert() {
+        alert("Nhớ anh rồi phải hông =))))))");
+      }
+    </script>
   </head>
-  <body>
+  <body onload="showAlert()">
     <canvas id="pinkboard"></canvas>
     <div id="drag-container">
       <div id="spin-container">
@@ -126,7 +131,6 @@
         };
       }
     })();
-
 
     /*
 
@@ -723,5 +727,6 @@
       radius += d;
       init(1);
     };
+    window.onload = alert("Nho dsacsd");
   </script>
 </html>
